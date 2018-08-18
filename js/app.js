@@ -8,19 +8,20 @@
 
 // The names and URLs to all of the feeds we'd like available.
 var allFeeds = [
-    {
-        name: 'Udacity Blog',
-        url: 'http://blog.udacity.com/feed'
-    }, {
-        name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
-    }, {
-        name: 'HTML5 Rocks',
-        url: 'http://feeds.feedburner.com/html5rocks'
-    }, {
-        name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
-    }
+	{
+		name: 'Udacity Blog',
+		url: 'http://blog.udacity.com/feed'
+
+	}, {
+		name: 'CSS Tricks',
+		url: 'http://feeds.feedburner.com/CssTricks'
+	}, {
+		name: 'HTML5 Rocks',
+		url: 'http://feeds.feedburner.com/html5rocks'
+	}, {
+		name: 'Linear Digressions',
+		url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+	}
 ];
 
 /* This function starts up our application. The Google Feed
@@ -28,8 +29,8 @@ var allFeeds = [
  * function when the API is loaded.
  */
 function init() {
-    // Load the first feed we've defined (index of 0).
-    loadFeed(0);
+	// Load the first feed we've defined (index of 0).
+	loadFeed(0);
 }
 
 /* This function performs everything necessary to load a
@@ -131,3 +132,12 @@ $(function() {
         $('body').toggleClass('menu-hidden');
     });
 }());
+
+
+var menuhiding = document.querySelector('.slide-menu');
+
+// Get it's position in the viewport
+var bounding = menuhiding.getBoundingClientRect();
+
+// Log the results
+console.log(bounding);
