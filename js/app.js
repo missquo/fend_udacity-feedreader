@@ -132,12 +132,3 @@ $(function() {
         $('body').toggleClass('menu-hidden');
     });
 }());
-
-
-var menuhiding = document.querySelector('.slide-menu');
-
-// Get it's position in the viewport
-var bounding = menuhiding.getBoundingClientRect();
-
-// Log the results
-console.log(bounding);
