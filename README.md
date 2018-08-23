@@ -9,7 +9,7 @@
 
 ## Introduction
 
-The object of this project is to learn the vaule of testing code, and provides an initial feed reader application against which the student must write tests to verify that feed entries are being populated correctly, and whether the page's menu is operating correctly.
+The object of this project is to learn the value of testing code, and provides an initial feed reader application against which the student must write tests to verify that feed entries are being populated correctly, and whether the page's menu is operating correctly.
 
 ## Dependencies
 
